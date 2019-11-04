@@ -1,6 +1,6 @@
 var d = {
     "site": {
-        "title": "Art Persona Quiz"
+        "title": "Art Fervour Quiz"
     },
     "cities": {
         "heading": "Where art thou?",
