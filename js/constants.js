@@ -145,7 +145,7 @@ var d = {
         ]
     },
     "q7": {
-        "heading": "Q7: Looking for a laugh, which cartoon would you rather watch?",
+        "heading": "Q7: Looking for a break, which cartoon would you rather watch?",
         "answerlist": [
             {
                 "id": "q7a",
