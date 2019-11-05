@@ -94,7 +94,7 @@ var d = {
         ]
     },
     "q4": {
-        "heading": "Q4: What would your spotify playlist look like?",
+        "heading": "Q4: What does your current spotify playlist look like?",
         "answerlist": [
             {
                 "id": "q4a",
@@ -111,7 +111,7 @@ var d = {
         ]
     },
     "q5": {
-        "heading": "Q5: What's your go-to movie on a lazy Sunday?",
+        "heading": "Q5: What are you in the mood for?",
         "answerlist": [
             {
                 "id": "q5a",
@@ -128,7 +128,7 @@ var d = {
         ]
     },
     "q6": {
-        "heading": "Q6:'I could watch this TV Show on loop.'",
+        "heading": "Q6: 'I could watch this TV Show on loop.'",
         "answerlist": [
             {
                 "id": "q6a",
