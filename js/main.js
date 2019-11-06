@@ -211,7 +211,7 @@ $( document ).ready(function() {
     });
     $('.q6').click(function() {
         q[5] = $(this).attr('id');
-        if(q[5]=="q6b"){
+        if(q[5]=="q6b" || q[5]=="q6a"){
             T++;
             console.log("Selected option is = ", q[5]);
             console.log("T value is = ", T);
