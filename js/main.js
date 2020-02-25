@@ -109,16 +109,16 @@ $('#emailh').text(d.emailform.heading);
 $( document ).ready(function() {
     var q = ['', '', '', ''];
     var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    var city = '';
+    city = bangalore'';
     var type = '';
     var emailcollected = window.location.search.includes('collected');
-    $('.city').click(function() {
-        city = $(this).attr('id');
-        $('#citycontainer').hide(400);
-        $('#q1container').show(800);
-        $('#headernav').append(`<img src="${$(this).find(`img`).attr('src')}" id="aflogonav">`);
-        console.log("Selected city is = ", city);
-    });
+    // $('.city').click(function() {
+    //    city = $(this).attr('id');
+    //    $('#citycontainer').hide(400);
+    //    $('#q1container').show(800);
+    //    $('#headernav').append(`<img src="${$(this).find(`img`).attr('src')}" id="aflogonav">`);
+    //    console.log("Selected city is = ", city);
+    //});
     $('.q1').click(function() {
         q[0] = $(this).attr('id');
         if(q[0]=="q1a"){
