@@ -15,17 +15,17 @@ $('#sitetitle').text(d.site.title);
 
 $('#headernav').append(`<img src="./img/af-logo.png" id="aflogonav">`);
 
-$('#cityh').text(d.cities.heading);
-$('#cityrow').html(d.cities.citylist.reduce(function (acc, c) {
-    return acc + 
-        `<div class="col-sm" align="center">
-            <div class="card city" id="${c.name}">
-                <img class="card-img-top" src="./img/${c.name}/${c.img}">
-                <h5>${c.displayname}</h5>
-            </div>
-            <br>
-        </div>`;
-}, ''));
+// $('#cityh').text(d.cities.heading);
+// $('#cityrow').html(d.cities.citylist.reduce(function (acc, c) {
+//    return acc + 
+//        `<div class="col-sm" align="center">
+//            <div class="card city" id="${c.name}">
+//                <img class="card-img-top" src="./img/${c.name}/${c.img}">
+//                <h5>${c.displayname}</h5>
+//           </div>
+//            <br>
+//        </div>`;
+// }, ''));
 
 $('#q1h').text(d.q1.heading);
 $('#q1row').html(d.q1.answerlist.reduce(function (acc, c) {
