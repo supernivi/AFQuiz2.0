@@ -1,4 +1,4 @@
-$('#q1container').hide();
+// $('#q1container').hide();
 $('#q2container').hide();
 $('#q3container').hide();
 $('#q4container').hide();
