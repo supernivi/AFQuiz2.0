@@ -109,7 +109,7 @@ $('#emailh').text(d.emailform.heading);
 $( document ).ready(function() {
     var q = ['', '', '', ''];
     var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    city = bangalore'';
+    var city = bangalore'';
     var type = '';
     var emailcollected = window.location.search.includes('collected');
     // $('.city').click(function() {
