@@ -1,4 +1,4 @@
-// $('#q1container').hide();
+$('#q1container').hide();
 $('#q2container').hide();
 $('#q3container').hide();
 $('#q4container').hide();
@@ -15,17 +15,17 @@ $('#sitetitle').text(d.site.title);
 
 $('#headernav').append(`<img src="./img/af-logo.png" id="aflogonav">`);
 
- // $('#cityh').text(d.cities.heading);
- // $('#cityrow').html(d.cities.citylist.reduce(function (acc, c) {
- //   return acc + 
- //       `<div class="col-sm" align="center">
- //           <div class="card city" id="${c.name}">
- //               <img class="card-img-top" src="./img/${c.name}/${c.img}">
- //               <h5>${c.displayname}</h5>
- //          </div>
- //            <br>
- //      </div>`;
-// }, ''));
+ $('#cityh').text(d.cities.heading);
+ $('#cityrow').html(d.cities.citylist.reduce(function (acc, c) {
+    return acc + 
+        `<div class="col-sm" align="center">
+            <div class="card city" id="${c.name}">
+                <img class="card-img-top" src="./img/${c.name}/${c.img}">
+                <h5>${c.displayname}</h5>
+           </div>
+             <br>
+       </div>`;
+ }, ''));
 
 $('#q1h').text(d.q1.heading);
 $('#q1row').html(d.q1.answerlist.reduce(function (acc, c) {
@@ -109,16 +109,16 @@ $('#emailh').text(d.emailform.heading);
 $( document ).ready(function() {
     var q = ['', '', '', ''];
     var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    var city = bangalore'';
+    var city = '';
     var type = '';
     var emailcollected = window.location.search.includes('collected');
-    // $('.city').click(function() {
-    //    city = $(this).attr('id');
-    //    $('#citycontainer').hide(400);
-    //    $('#q1container').show(800);
-    //    $('#headernav').append(`<img src="${$(this).find(`img`).attr('src')}" id="aflogonav">`);
-    //    console.log("Selected city is = ", city);
-    //});
+     $('.city').click(function() {
+        city = $(this).attr('id');
+        $('#citycontainer').hide(400);
+        $('#q1container').show(800);
+        $('#headernav').append(`<img src="${$(this).find(`img`).attr('src')}" id="aflogonav">`);
+        console.log("Selected city is = ", city);
+    });
     $('.q1').click(function() {
         q[0] = $(this).attr('id');
         if(q[0]=="q1a"){
